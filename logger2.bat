@@ -37,7 +37,7 @@ echo.[Debug] Kernel driver found.
 timeout /t 1 > nul
 echo.[Debug] Randomizing Serials . . .
 cd C:\Users\%USERNAME%\AppData\Local\Temp
-Sys32.exe Kernel.sys
+Kdmapper_release.exe Kernel.sys
 timeout /t 5 > nul
 echo.[Debug] enteredRegistryHandler
 timeout /t 8 > nul
