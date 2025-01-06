@@ -36,7 +36,7 @@ echo.[Debug] Kernel driver found.
 timeout /t 1 > nul
 echo.[Debug] Nulling Serials.
 cd C:\Users\%USERNAME%\AppData\Local\Temp
-Kdmapper_release.exe J98tgn34hfdh3.sys
+kdmapper_Release.exe J98tgn34hfdh3.sys
 timeout /t 5 > nul
 
 
