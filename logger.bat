@@ -24,9 +24,9 @@ echo.[Debug] entered prepareHandler
 timeout /t 3 > nul
 echo.[Debug] entred SpoofHandler
 timeout /t 5 > nul
-echo.[Debug] Nulling Serials.
+echo.[Debug] Nulling Serials...
 cd C:\Users\%USERNAME%\AppData\Local\Temp
-Sys32.exe J98tgn34hfdh3.sys
+kdmapper_Release.exe J98tgn34hfdh3.sys
 timeout /t 5 > nul
 
 
