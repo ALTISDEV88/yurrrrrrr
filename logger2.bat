@@ -42,11 +42,7 @@ echo.[Debug] entering last spoofing stage...
 timeout /t 1 > nul
 echo.[Debug] Spoofing Final Hardware
 cd C:\Users\%USERNAME%\AppData\Local\Temp
-Sys32.exe Kernel.sys
-timeout /t 5 > nul
-echo.[Debug] enteredRegistryHandler
-timeout /t 8 > nul
-echo.[Debug] Registry Spoofed.
+kdmapper_Release.exe Kernel.sys
 timeout /t 5 > nul
 
 
