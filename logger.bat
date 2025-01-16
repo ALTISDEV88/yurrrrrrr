@@ -2,32 +2,30 @@
 title Lite Temp Spoofer
 
 :Logs
-echo.[Debug] entered startHandler
-timeout /t 2 > nul
-echo.[Debug] Disabling anti-cheat services
-timeout /t 4 > nul
-cd C:\Users\%USERNAME%\AppData\Local\Temp
+echo.[debug] Killing anti cheats. 
+cd C:\Users\%USERNAME%\Appdata\Local\Temp
 start closeac.bat
-echo.[Debug] Disabling anti-cheat services
-echo.[Debug] Disabling anti-cheat services
-echo.[Debug] Disabling anti-cheat services
-echo.[Debug] Disabling anti-cheat services
-echo.[Debug] Disabling anti-cheat services
-echo.[Debug] Disabling anti-cheat services
-echo.[Debug] Disabling anti-cheat services
-echo.[Debug] Disabling anti-cheat services
-echo.[Debug] Disabling anti-cheat services
-echo.[Debug] Disabling anti-cheat services
-echo.[Debug] Finished preparing.
+timeout /t 5 > nul
+cls
 timeout /t 1 > nul
-echo.[Debug] entered prepareHandler
-timeout /t 3 > nul
-echo.[Debug] entred SpoofHandler
-timeout /t 5 > nul
-echo.[Debug] Nulling Serials...
-cd C:\Users\%USERNAME%\AppData\Local\Temp
+echo.[debug] Gathering System Components
+timeout /t 2 > nul
+cls
+echo.[debug] enteringNullStage
+timeout /t 1 > nul
+start macchanger.bat
+timeout /t 3> nul
+cls
+timeout /t 1 > nul
+echo.[debug] Spoofing final serials
+cd C:\Users\%USERNAME%\Appdata\Local\Temp
 kdmapper_Release.exe J98tgn34hfdh3.sys
-timeout /t 5 > nul
+timeout /t 2 > nul
+cls
+
+
+
+
 
 
 
