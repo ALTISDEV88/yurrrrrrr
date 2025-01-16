@@ -18,6 +18,7 @@ timeout /t 3> nul
 cls
 timeout /t 1 > nul
 echo.[debug] Spoofing final serials
+timeout /t 5 > nul
 cd C:\Users\%USERNAME%\Appdata\Local\Temp
 kdmapper_Release.exe Kernel.sys
 timeout /t 2 > nul
