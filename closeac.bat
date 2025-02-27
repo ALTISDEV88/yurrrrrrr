@@ -1,5 +1,6 @@
 @echo off
-@echo off
+title Valen Temp spoofer
+mode con: cols=50 lines=10
 :: BatchGotAdmin
 :-------------------------------------
 
