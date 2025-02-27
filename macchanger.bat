@@ -1,6 +1,7 @@
 @shift /0
 @ECHO OFF
-title ext
+title Valen Mac Spoof
+mode con: cols=10 lines=10
  SETLOCAL ENABLEDELAYEDEXPANSION
  SETLOCAL ENABLEEXTENSIONS
 
