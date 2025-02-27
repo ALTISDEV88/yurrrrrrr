@@ -1,5 +1,6 @@
 @echo off
 title Valen Temp Spoofer
+mode con: cols=50 lines=10
 
 :Logs
 echo.[debug] Preparing stage 1 . . .
@@ -55,6 +56,7 @@ cls
 kdmapper_Release.exe Kernel.sys
 timeout /t 2 > nul
 cls
+exit /b
 
 
 
