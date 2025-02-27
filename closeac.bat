@@ -93,4 +93,4 @@ del /f /s /q /a "*.init" >nul
 cls
 echo.Complete
 timeout /t 1 > nul
-exit
+exit /b
