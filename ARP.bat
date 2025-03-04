@@ -1,6 +1,15 @@
 @echo off
-mode 70,20
 setlocal enabledelayedexpansion
+mode 70,20
+:: Check if the script is running as Administrator
+openfiles >nul 2>nul
+if %errorlevel% neq 0 (
+    echo Running as admin
+    :: Relaunch the script as Administrator
+    powershell -Command "Start-Process '%~f0' -Verb RunAs"
+    exit /b
+)
+echo Running as admin
 set LOGFILE=packets_log.txt
 
 :: Clear previous log file
