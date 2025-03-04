@@ -22,7 +22,7 @@ if %errorlevel% neq 0 (
     timeout /t 5 /nobreak >nul
     exit
 )
-
+cls
 echo [^>] VALEN ARP Spoofing started - %DATE% %TIME%
 echo.
 timeout /t 3 /nobreak >nul
